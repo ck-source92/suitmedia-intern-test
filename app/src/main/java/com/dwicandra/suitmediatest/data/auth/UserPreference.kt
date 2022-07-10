@@ -1,4 +1,4 @@
-package com.dwicandra.suitmediatest.data
+package com.dwicandra.suitmediatest.data.auth
 
 import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
@@ -23,12 +23,6 @@ class UserPreference private constructor(private val dataStore: DataStore<Prefer
             User(
                 preferences[NAME_KEY] ?: ""
             )
-        }
-    }
-
-    suspend fun login() {
-        dataStore.edit { preference ->
-            preference[KEY_LOGIN] = true
         }
     }
 

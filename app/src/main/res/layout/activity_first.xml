@@ -11,6 +11,7 @@
         android:layout_height="match_parent"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
+        android:gravity="center"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -21,8 +22,8 @@
             android:layout_width="96dp"
             android:layout_height="96dp"
             android:layout_gravity="center"
-            android:layout_marginTop="120dp"
-            android:src="@mipmap/ic_launcher" />
+            android:src="@mipmap/ic_profile"
+            app:civ_circle_background_color="@color/black" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/name_textInputLayout"
@@ -30,7 +31,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:hint="Name">
+            android:hint="@string/name">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/name_editText"
@@ -46,7 +47,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:hint="Palindrome">
+            android:hint="@string/palindrome">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/palindrome_editText"
@@ -61,14 +62,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="Check" />
+            android:backgroundTint="#2B637B"
+            android:text="@string/check" />
 
         <Button
             android:id="@+id/btn_next"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="Next" />
+            android:backgroundTint="#2B637B"
+            android:text="@string/next" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

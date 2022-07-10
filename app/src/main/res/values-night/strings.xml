@@ -1,14 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Suitmedia Test</string>
     <string name="welcome">Welcome</string>
     <string name="choose_a_user">Choose a User</string>
-    <string name="retry">Retry</string>
     <string name="selected_user_name">Selected User Name</string>
-
-    <string name="firstScreen">First Screen</string>
-    <string name="secondScreen">Second Screen</string>
-    <string name="thirdScreen">Third Screen</string>
-    <string name="check">Check</string>
     <string name="next">Next</string>
     <string name="name">Name</string>
     <string name="palindrome">Palindrome</string>

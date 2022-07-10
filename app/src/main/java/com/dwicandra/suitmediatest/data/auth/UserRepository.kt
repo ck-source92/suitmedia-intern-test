@@ -1,4 +1,4 @@
-package com.dwicandra.suitmediatest.data
+package com.dwicandra.suitmediatest.data.auth
 
 class UserRepository private constructor(private val pref: UserPreference) {
     fun getUserPref(): UserPreference {
