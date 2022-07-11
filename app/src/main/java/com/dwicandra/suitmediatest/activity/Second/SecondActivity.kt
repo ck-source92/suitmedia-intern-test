@@ -2,8 +2,12 @@ package com.dwicandra.suitmediatest.activity.Second
 
 import android.content.Intent
 import android.os.Bundle
+import android.text.Spannable
+import android.text.SpannableString
+import android.text.style.ForegroundColorSpan
 import android.view.View.VISIBLE
 import androidx.activity.viewModels
+import androidx.appcompat.app.ActionBar
 import androidx.appcompat.app.AppCompatActivity
 import com.dwicandra.suitmediatest.activity.AuthViewModelFactory
 import com.dwicandra.suitmediatest.activity.Third.ThirdActivity
